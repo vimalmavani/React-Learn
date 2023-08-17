@@ -1,0 +1,32 @@
+@import '../../Assets/css/common.scss';
+.expence-section{
+    border: 1px dashed $dark;
+    margin: 8px;
+    display: inline-block;
+    border-radius: 3px;
+    .expence-date{
+        margin: 0;
+        padding: 8px;
+        font-family: $font-bold;
+        background-color: $bg-light;
+        color: $primary;
+    }
+    .expence-desc{
+        padding: 8px;
+        .expence-items{
+            margin: 0;
+            padding-bottom: 5px;
+        }
+        .expence-price{
+            background-color: $text-muted;
+            display: block;
+            text-align: center;
+            font-family: $font-semibold;
+            font-size: 16px;
+            padding: 6px 15px;
+            border-radius: 3px;
+            color: #fff;
+        }
+    }
+    
+}
